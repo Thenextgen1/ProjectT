@@ -96,20 +96,7 @@ a {
     padding-left: 2em;
 }
 
-/* #illustration {
-    background-color: var(--light-grayish-blue);
-    position: absolute;
-    left: 50%;
-    top: 0%;
-    padding-top: 10em;
-    z-index: -10;
-    height: 18em;
-}
 
-#image {
-    position: absolute;
-    left: 18%;
-} */
 .new {
     letter-spacing: 0px;
     background-color: black;
@@ -126,16 +113,18 @@ a {
     #dis {
         padding-left: 0px;
     }
-/* #image {
-    position: relative;
-    left: 0%;
-} */
-/* #illustration {
-    position: relative;
-    left: 0%;
-    top: 0%;
-    padding-top: 0em;
-    z-index: 0;
-    height: 0em;
-} */
+}
+@media(max-width: 396px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    #features {
+        margin-top: 2em;
+    }
+    #image {
+        position: relative;
+        left: 0%;
+    } #sec-2 {
+padding-top: 2em;
+    }
 }
