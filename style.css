@@ -23,6 +23,8 @@ header {
 body {
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(238,243,246,1) 100%);
 }
 #header {
     width: 100%;
@@ -94,7 +96,7 @@ a {
     padding-left: 2em;
 }
 
-#illustration {
+/* #illustration {
     background-color: var(--light-grayish-blue);
     position: absolute;
     left: 50%;
@@ -107,7 +109,7 @@ a {
 #image {
     position: absolute;
     left: 18%;
-}
+} */
 .new {
     letter-spacing: 0px;
     background-color: black;
@@ -118,4 +120,22 @@ a {
 }
 .project-t {
     color: var(--dark-grayish-blue);
+}
+
+@media(max-width: 976px) {
+    #dis {
+        padding-left: 0px;
+    }
+/* #image {
+    position: relative;
+    left: 0%;
+} */
+/* #illustration {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    padding-top: 0em;
+    z-index: 0;
+    height: 0em;
+} */
 }
